@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetServiceConsoleApp", "BudgetServiceConsoleApp\BudgetServiceConsoleApp.csproj", "{5869584D-22E4-499A-B2D9-E89EF80767B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetServiceConsoleApp", "BudgetServiceConsoleApp\BudgetServiceConsoleApp.csproj", "{5869584D-22E4-499A-B2D9-E89EF80767B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetServiceTest", "BudgetServiceTest\BudgetServiceTest.csproj", "{6504B377-53E6-4A47-9E2C-34AC901EFEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetServiceCore", "BudgetServiceCore\BudgetServiceCore.csproj", "{8C088300-BDAB-40DD-8411-3332B73FAA4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5869584D-22E4-499A-B2D9-E89EF80767B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5869584D-22E4-499A-B2D9-E89EF80767B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5869584D-22E4-499A-B2D9-E89EF80767B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6504B377-53E6-4A47-9E2C-34AC901EFEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6504B377-53E6-4A47-9E2C-34AC901EFEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6504B377-53E6-4A47-9E2C-34AC901EFEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6504B377-53E6-4A47-9E2C-34AC901EFEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C088300-BDAB-40DD-8411-3332B73FAA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C088300-BDAB-40DD-8411-3332B73FAA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C088300-BDAB-40DD-8411-3332B73FAA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C088300-BDAB-40DD-8411-3332B73FAA4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
